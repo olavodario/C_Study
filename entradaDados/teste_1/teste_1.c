@@ -14,7 +14,7 @@ int main() {
     char nome[50];
 
     printf("Digite o nome: ");
-    //limpar_entrada(); como é o primeiro n preciso limpar a entrada
+    //limpar_entrada(); como é a primeira entrada n preciso usar a primiera limpar_entrada
     fgets(nome, 50, stdin);
     strtok (nome, "\n");//serve para nao adicionar o 'ENTER' no nome, fazendo ter uma quebra de linha indesejada!
     printf("Digite o valor da idade: ");
@@ -23,7 +23,6 @@ int main() {
     scanf("%lf", &salario);
     printf("Digite o valor da altura(m): ");
     scanf("%lf", &altura);
-
     printf("Digit o genero (F/M): ");
     limpar_entrada(); 
     scanf("%c", &genero); 
